@@ -74,8 +74,8 @@ body,html{
 .del{
     font-size: 30px;
     cursor: pointer;
-    display: none;
+    /*display: none;*/
 }
-.active{
-    display: block;
-}
+/*.active{*/
+    /*display: block;*/
+/*}*/

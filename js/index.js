@@ -11,9 +11,9 @@ function init() {
 
 }
 function bind() {
-    $('.todoList ol').on('mouseenter mouseleave','li',function (e) {
-        $(e.target).find('.del').toggleClass('active')
-    })
+    // $('.todoList ol').on('mouseenter mouseleave','li',function (e) {
+    //     $(e.target).find('.del').toggleClass('active')
+    // })
     $('.wrap button').click(function () {
         var value=$('.wrap input').val();
         if(value!=""){
