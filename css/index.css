@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body,html{
+    background-color: #eeeeee;
+}
+.wrap{
+    display: none;
+}
+.wrap form .form-group{
+    position: relative;
+    height: 80px;
+    font-size: 20px;
+
+}
+.wrap input[type="text"]{
+    height:80px;
+    line-height: 80px;
+    padding: 10px 20px;
+    border:none;
+    outline:none;
+    width:100%;
+}
+.wrap h2{
+    text-align: center;
+    color: teal;
+
+}
+.wrap button {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right:0;
+    width:80px;
+    border:none;
+    background-color: cadetblue;
+    color: white;
+}
+.wrap button:hover,
+.wrap button:focus,
+.wrap button:active {
+    background: teal;
+    outline: none;
+}
+.todoList{
+    background-color: white;
+    padding: 20px 50px;
+}
+.todoList ol li{
+    /*list-style-type: none;*/
+    height:60px;
+    padding: 5px 10px;
+    color: teal;
+    font-size: 18px;
+    vertical-align: middle;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.todoList ol li:after{
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    width:1px;
+    height:100%;
+}
+.todoList ol li+li{
+    border-top: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+.del{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+.active{
+    display: block;
+}
